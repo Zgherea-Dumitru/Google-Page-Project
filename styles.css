@@ -120,7 +120,6 @@ div #connexion:active
     padding: 10px 16px 0px 0px ;
     width: 24px;
     height: 24px;
-    display: inline-block;
 }
 #search-area
 {
@@ -227,31 +226,54 @@ div #connexion:active
 }
 #footer-left
 {
-    display: inline-block;
     float: right;
 }
 
 
+.dropbtn {
+    color: #5f6368;
+    padding: 7px 30px 10px 23px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    text-decoration: underline;
+  }
 
+  .dropbtn:active{
+    color: #DE3B3B;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #fff;
+    width: 305px;
+    height: 295px;
+    overflow: auto;
+    border: solid #999 1px;
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content div a {
+    color: black;
+    padding-bottom: 6px ;
+    text-decoration: none;
+    display: block;
+  }
 
+  #pose{
+      padding: 13px 7px 0px;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .show {display: block;}

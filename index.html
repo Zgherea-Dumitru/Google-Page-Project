@@ -2,8 +2,9 @@
 <html>
     <head>
         <link rel="icon" type="image/png" href="images/IOS_Google_icon.png"/>
-        <link href="styles.css" rel="stylesheet">
+        <link  rel="stylesheet" href="styles.css">
         <title>Google</title>
+        <script src="animations.js"></script>
     </head> 
     <body>
         <header>
@@ -51,26 +52,25 @@
                 <a href="https://www.google.be/intl/fr_be/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1" style="padding-left: 30px" >Publicité</a>
                 <a href="https://www.google.be/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1">Entreprise</a>
                 <a href="https://about.google/?utm_source=google-BE&amp;utm_medium=referral&amp;utm_campaign=hp-footer&amp;fg=1">À propos</a>
-                <a class="Fx4vi" href="https://google.com/search/howsearchworks/?fg=1">  Comment fonctionne la recherche Google&nbsp;? </a>
+                <a href="https://google.com/search/howsearchworks/?fg=1">  Comment fonctionne la recherche Google&nbsp;? </a>
                 <div id="footer-left">
                     <a href="https://policies.google.com/privacy?fg=1">Confidentialité</a>
-                    <a class="Fx4vi" href="https://policies.google.com/terms?fg=1">Conditions</a>
-                    <a href="#" style="padding-right: 30px">Paramètres</a>
+                    <a href="https://policies.google.com/terms?fg=1">Conditions</a>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Paramètres</button>
+                        <div id="myDropdown" class="dropdown-content">
+                                <div id="pose">
+                            <a href="#">Paramètres de recherche</a>
+                            <a href="#">Recherche avancée</a>
+                            <a href="#">Vos données dans la recherche Google</a>
+                            <a href="#">Activité de recherche</a>
+                            <a href="#">Aide sur la recherche</a>
+                            <a href="#">Envoyer des commentaires</a>
+                                </div>
+                        </div>
+                      </div>
                 </div>
             </div>
         </footer>
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
